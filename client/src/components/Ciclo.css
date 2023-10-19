@@ -1,0 +1,101 @@
+/* Estilo para el contenedor principal */
+.bg-calendario {
+    background-image: url("https://img.freepik.com/free-vector/gradient-abstract-background-design_23-2149066046.jpg?w=1380&t=st=1697697073~exp=1697697673~hmac=53914b97f1b57182d00acff9b901ce6251b01e13565b80d2cd1c430271736931");
+    background-size: cover; /* Cubre toda la página */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Centra la imagen de fondo */
+    width: 1500px;
+    height: 969px;
+}
+
+
+/* Estilo para el contenido interno */
+.content-container {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    
+}
+
+/* Estilo para los botones */
+.btn-primary {
+    background-color: #007bff; /* Color de fondo del botón primario */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambio de cursor al pasar el mouse */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el mouse */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Color de fondo del botón secundario */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambio de cursor al pasar el mouse */
+}
+
+.btn-secondary:hover {
+    background-color: #565e64; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilo para las tarjetas de ciclo */
+.card {
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para el encabezado de las tarjetas */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilo para el texto dentro de las tarjetas */
+.card-text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilo para el mensaje de error */
+.alert-danger {
+    background-color: #f8d7da; /* Color de fondo rojo claro */
+    color: #721c24; /* Color del texto */
+    border: 1px solid #f5c6cb; /* Borde rojo claro */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+/* Estilo para el título del calendario */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el subtítulo del calendario */
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los campos de entrada de texto */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Estilo para el contenido del calendario */
+.row {
+    margin-top: 20px;
+}

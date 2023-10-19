@@ -1,0 +1,14 @@
+.dash {
+    background-image: url("https://img.freepik.com/free-vector/flat-abstract-wireframe-background_23-2149008684.jpg?w=1380&t=st=1697679964~exp=1697680564~hmac=0bf176dff31de3d2a12b394e2b05b403829f15564ae00799e08af8c7b300ad0c");
+    background-size: cover; /* Cubre toda la página */
+    background-repeat: no-repeat;
+    background-position: center; /* Centra la imagen de fondo */
+    width: 1500px;
+    height: 969px;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+.ojo{
+    margin-left: 10px;
+}

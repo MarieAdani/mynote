@@ -1,0 +1,38 @@
+.bg-image {
+    background-image: url("https://img.freepik.com/free-vector/gradient-abstract-background_52683-102674.jpg?w=1380&t=st=1697693062~exp=1697693662~hmac=f1c9c5e96eabde8f08078f8002f5257813c01b71e65e20ebd6daa9be6e7af9bb");
+    background-size: cover; /* Cubre toda la página */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Centra la imagen de fondo */
+    width: 1500px;
+    height: 969px;
+}
+
+.titulo {
+    color: #333; /* Cambia el color del texto */
+    font-size: 24px; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Ajusta el peso de la fuente */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding-bottom: 30px;
+}
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    padding: 40px; /* Añade espacio alrededor del contenido */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    position: absolute; /* Posición absoluta para el contenido */
+    top: 50%; /* Centra verticalmente en relación al contenedor */
+    left: 500px; /* Alinea a la izquierda del contenedor */
+    right: 500px; /* Alinea a la derecha del contenedor */
+    transform: translateY(-50%); /* Ajusta la posición vertical */
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* Estilos para pantallas pequeñas (dispositivos móviles y tabletas) */
+@media (max-width: 768px) {
+    .content-container {
+        left: 20px; /* Alinea a la izquierda en pantallas pequeñas */
+        right: 20px; /* Alinea a la derecha en pantallas pequeñas */
+    }
+}

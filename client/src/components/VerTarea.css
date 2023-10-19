@@ -1,0 +1,63 @@
+.imagever{
+        background-image: url("https://img.freepik.com/free-vector/realistic-iridescent-glitter-background_23-2149968834.jpg?w=1380&t=st=1697680409~exp=1697681009~hmac=e7a38b2fdbd9b3e54de8b158b3017013ec8e5eafa744263bb86ef7f531041e20");
+        background-size: cover; /* Cubre toda la página */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; /* Centra la imagen de fondo */
+        width: 1300px;
+        height: 969px;
+        
+}
+
+.containerver{
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo con menor transparencia */
+    padding: 40px; /* Añade espacio alrededor del contenido */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    position: absolute; /* Posición absoluta para el contenido */
+    top: 40%; /* Centra verticalmente en relación al contenedor */
+    left: 700px; /* Alinea a la izquierda del contenedor */
+    right: 700px; /* Alinea a la derecha del contenedor */
+    transform: translateY(-50%); /* Ajusta la posición vertical */
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.botonver{
+    margin-left: 60px;
+}
+
+
+.cargando{
+        background-image: url("https://w0.peakpx.com/wallpaper/5/552/HD-wallpaper-cat-funny-funny-cat-animals.jpg");
+        background-size: cover; /* Cubre toda la página */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; /* Centra la imagen de fondo */
+        width: 1300px;
+        height: 969px;
+        
+}  
+
+@media (max-width: 768px) {
+        .imagever {
+        background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla en pantallas más pequeñas */
+    }
+
+    .containerver {
+        text-align: center;
+        padding: 20px;
+        max-width: 95%;
+        left: 7%;
+        right: 5%;
+    }
+
+    .botonverd {
+        margin-left: 50px /* Eliminamos el margen izquierdo en pantallas pequeñas */
+
+    }
+    
+    .botonver {
+        margin-left: 0px /* Eliminamos el margen izquierdo en pantallas pequeñas */
+        
+    }
+}

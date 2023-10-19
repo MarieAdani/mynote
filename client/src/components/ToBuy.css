@@ -1,0 +1,57 @@
+.bg-imagebuy {
+    background-image: url("https://img.freepik.com/free-vector/flat-abstract-wireframe-background_23-2149014845.jpg?w=1380&t=st=1696446046~exp=1696446646~hmac=b9d02161e921157acf8b80249b79ca78b0d8153b046ebcde77a41bb5aff2f694");
+    background-size: cover; /* Cubre toda la página */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Centra la imagen de fondo */
+    width: 1500px;
+    height: 969px;
+}
+
+.content-containerbuy {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    padding: 40px; /* Añade espacio alrededor del contenido */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    position: absolute; /* Posición absoluta para el contenido */
+    top: 50%; /* Centra verticalmente en relación al contenedor */
+    left: 500px; /* Alinea a la izquierda del contenedor */
+    right: 500px; /* Alinea a la derecha del contenedor */
+    transform: translateY(-50%); /* Ajusta la posición vertical */
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+/* Estilos para pantallas pequeñas (dispositivos móviles y tabletas) */
+@media (max-width: 768px) {
+    .content-containerbuy {
+        left: 20px; /* Alinea a la izquierda en pantallas pequeñas */
+        right: 20px; /* Alinea a la derecha en pantallas pequeñas */
+    }
+
+}
+
+.btbuy {
+
+    margin: 30px auto; /* Margen superior e inferior automático y margen izquierdo/derecho automático para centrar horizontalmente */
+    width: 50%; /* Ajusta el ancho del botón para pantallas pequeñas */
+    max-width: 200px; /* Establece un ancho máximo para evitar que el botón sea demasiado ancho */
+    padding: 10px; /* Ajusta el padding del botón para controlar su tamaño */
+    margin-left: 320px;
+
+}
+
+/* Estilos para pantallas pequeñas (dispositivos móviles y tabletas) */
+@media (max-width: 768px) {
+    .btbuy {
+        width: 80%; /* Ajusta el ancho del botón para pantallas pequeñas */
+        margin: 30px auto; /* Margen superior e inferior automático y margen izquierdo/derecho automático para centrar horizontalmente */
+        display: block; /* Hace que el botón sea un elemento de bloque para centrarlo horizontalmente */
+        margin-left: 20px;
+    }
+}
+
+.btn-primary {
+    padding: 6px 12px; /* Ajusta el padding horizontal y vertical según tus preferencias */
+    align-self: flex-start; /* Alinea el botón verticalmente con el texto del campo de entrada */
+}
+

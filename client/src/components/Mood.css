@@ -1,0 +1,23 @@
+.bg-imagemood {
+    background-image: url("https://img.freepik.com/free-vector/pastel-gradient-blur-soft-peach-background-vector_53876-161568.jpg?w=1480&t=st=1697695279~exp=1697695879~hmac=7df41c35eb97c63137f016af06f2482db11409bdf3aa2f1183c79bccd81fa0be");
+    background-size: cover; /* Cubre toda la página */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Centra la imagen de fondo */
+    width: 1500px;
+    height: 969px;
+}
+
+.content-containermood {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    padding: 40px; /* Añade espacio alrededor del contenido */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    position: absolute; /* Posición absoluta para el contenido */
+    top: 50%; /* Centra verticalmente en relación al contenedor */
+    left: 500px; /* Alinea a la izquierda del contenedor */
+    right: 500px; /* Alinea a la derecha del contenedor */
+    transform: translateY(-50%); /* Ajusta la posición vertical */
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
